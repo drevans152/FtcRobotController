@@ -16,8 +16,8 @@ rightDrive = hwMap.get(DcMotor.class, "rightdrive");
 leftDrive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 rightDrive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
-leftDrive.setDirection(DcMotorSimple.Direction.FORWARD);
-rightDrive.setDirection(DcMotorSimple.Direction.REVERSE);
+leftDrive.setDirection(DcMotorSimple.Direction.REVERSE);
+
 }
 
 public void drive(double throttle, double spin) {
